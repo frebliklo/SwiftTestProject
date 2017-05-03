@@ -18,7 +18,9 @@ class ProductViewController: UIViewController {
 
         productNameLabel.text = "2017 Volkswagen UP"
         productImageView.image = #imageLiteral(resourceName: "up2017")
-
-        // Do any additional setup after loading the view.
+        
+    }
+    @IBAction func buyNowPressed(_ sender: Any) {
+        print("Button tapped")
     }
 }
