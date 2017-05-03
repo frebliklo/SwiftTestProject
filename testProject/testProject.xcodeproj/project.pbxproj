@@ -11,6 +11,7 @@
 		278378C81EBA610000CC27DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278378C61EBA610000CC27DF /* Main.storyboard */; };
 		278378CA1EBA610000CC27DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278378C91EBA610000CC27DF /* Assets.xcassets */; };
 		278378CD1EBA610000CC27DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278378CB1EBA610000CC27DF /* LaunchScreen.storyboard */; };
+		278378D51EBA695100CC27DF /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278378D41EBA695100CC27DF /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		278378C91EBA610000CC27DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278378CC1EBA610000CC27DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		278378CE1EBA610000CC27DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278378D41EBA695100CC27DF /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				278378C91EBA610000CC27DF /* Assets.xcassets */,
 				278378CB1EBA610000CC27DF /* LaunchScreen.storyboard */,
 				278378CE1EBA610000CC27DF /* Info.plist */,
+				278378D41EBA695100CC27DF /* ProductViewController.swift */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278378D51EBA695100CC27DF /* ProductViewController.swift in Sources */,
 				278378C31EBA610000CC27DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				278378D31EBA610000CC27DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
