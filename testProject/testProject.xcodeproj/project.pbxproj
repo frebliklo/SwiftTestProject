@@ -12,6 +12,7 @@
 		278378CA1EBA610000CC27DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278378C91EBA610000CC27DF /* Assets.xcassets */; };
 		278378CD1EBA610000CC27DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278378CB1EBA610000CC27DF /* LaunchScreen.storyboard */; };
 		278378D51EBA695100CC27DF /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278378D41EBA695100CC27DF /* ProductViewController.swift */; };
+		27BFFE9B1EBB72D600A54FC2 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFFE9A1EBB72D600A54FC2 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		278378CC1EBA610000CC27DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		278378CE1EBA610000CC27DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		278378D41EBA695100CC27DF /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		27BFFE9A1EBB72D600A54FC2 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				278378CB1EBA610000CC27DF /* LaunchScreen.storyboard */,
 				278378CE1EBA610000CC27DF /* Info.plist */,
 				278378D41EBA695100CC27DF /* ProductViewController.swift */,
+				27BFFE9A1EBB72D600A54FC2 /* ContactViewController.swift */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				278378D51EBA695100CC27DF /* ProductViewController.swift in Sources */,
 				278378C31EBA610000CC27DF /* AppDelegate.swift in Sources */,
+				27BFFE9B1EBB72D600A54FC2 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
